@@ -13,11 +13,13 @@ body {
 }
 
 header {
-  background-color: #ddd;
+  background-color:linen;
   padding: 20px 40px;
+
 }
 header h1{
   margin-bottom: 10px;
+  color:darkmagenta;
 }
 
 header p span {
@@ -43,6 +45,8 @@ header p span {
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
+  
+  
 }
 
 .producto img{
@@ -62,4 +66,6 @@ header p span {
 .producto button{
   padding: 5px;
   text-transform: uppercase;
+  background-color:linen;
+  border-radius: 50px;
 }

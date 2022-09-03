@@ -23,7 +23,7 @@ export default function Item({producto, sumarCantidad}) {
     <div className='producto'>
       <h3>{producto.producto.nombre}</h3>
       <p>{producto.producto.descripcion}</p>
-      <h5>En stock:{stock > 0 ? stock: <span>agotado</span>}</h5>
+      <h5>En stock:{stock > 0 ? stock: <span>Agotado</span>}</h5>
       <button disabled={stock < 1} onClick ={disminuirStock}>{stock > 0 ? 'COMPRAR' : 'SIN STOCK'} </button>
     </div>
   );
